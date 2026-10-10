@@ -1,0 +1,24 @@
+{
+  "project": "ParkGuide AI",
+  "allowed_host": "www.nps.gov",
+  "parks": {"yose": "Yosemite", "yell": "Yellowstone", "grca": "Grand Canyon"},
+  "allowed_path_prefixes": ["/yose/planyourvisit/", "/yell/planyourvisit/", "/grca/planyourvisit/"],
+  "requests_per_second": 1,
+  "contact_email": null,
+  "minimum_html_pages": 150,
+  "minimum_pdfs": 5,
+  "minimum_html_table_pages": 3,
+  "table_pages": [
+    "https://www.nps.gov/yose/planyourvisit/campgrounds.htm",
+    "https://www.nps.gov/yell/planyourvisit/operating-dates.htm",
+    "https://www.nps.gov/grca/planyourvisit/trail-distances.htm"
+  ],
+  "pdf_candidates": [
+    "https://www.nps.gov/yose/planyourvisit/upload/Yosemite-Guide-51-8-508V1.pdf",
+    "https://www.nps.gov/yose/planyourvisit/upload/Yosemite-Guide-51-7-508V1.pdf",
+    "https://www.nps.gov/yose/planyourvisit/upload/Yosemite-Guide-51-6-508V1.pdf",
+    "https://www.nps.gov/yose/planyourvisit/upload/Yosemite-Guide-51-5-508V7.pdf",
+    "https://www.nps.gov/yose/planyourvisit/upload/Yosemite-Guide-51-4-508V2.pdf",
+    "https://www.nps.gov/grca/planyourvisit/upload/RimTrail.pdf"
+  ]
+}

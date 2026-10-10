@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "model_directory": "data/models/all-MiniLM-L6-v2",
+  "dimension": 384,
+  "metric": "cosine",
+  "normalize_embeddings": true,
+  "maximum_input_tokens": 256,
+  "batch_size": 64,
+  "cpu_threads": 4,
+  "candidate_pool": 20,
+  "retriever_depth": 40,
+  "rrf_constant": 60,
+  "bm25_k1": 1.5,
+  "bm25_b": 0.75
+}

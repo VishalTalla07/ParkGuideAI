@@ -1,0 +1,10 @@
+{
+  "reranker_model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+  "reranker_revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+  "reranker_directory": "data/models/ms-marco-MiniLM-L6-v2",
+  "maximum_pair_tokens": 512,
+  "maximum_context_chunks": 5,
+  "generation_model": "gemini-3.5-flash-lite",
+  "maximum_output_tokens": 1600,
+  "generation_provider": "gemini"
+}

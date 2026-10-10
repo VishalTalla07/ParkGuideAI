@@ -1,0 +1,13 @@
+{
+  "chunker_version": "1.0.0",
+  "target_body_tokens": 200,
+  "fixed_overlap_tokens": 40,
+  "maximum_input_tokens": 256,
+  "maximum_prefix_tokens": 40,
+  "tokenizer": {
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "file": "assets/tokenizer/tokenizer.json",
+    "sha256": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037"
+  }
+}
