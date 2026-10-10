@@ -1,0 +1,25 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+tmp/
+data/raw/
+data/normalized/
+data/index/
+data/chunks/
+data/models/
+data/audit/sitemap*.xml
+data/audit/*_run.log
+
+# Local corpus-review packets may retain original contact details.
+data/review/
+
+# Local corpus snapshots, evaluation answers, traces, and generated artifacts.
+/data/
+/output/
+.streamlit/secrets.toml
+*.pem
+*.key
